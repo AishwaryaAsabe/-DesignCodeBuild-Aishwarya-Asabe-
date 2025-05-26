@@ -36,14 +36,16 @@ const Contact = () => {
   }
 
   emailjs.send(
-    'service_vsqu7h4',     // replace with your actual Service ID
-    'template_802bg7n',    // replace with your actual Template ID
+    import.meta.env.VITE_EMAILJS_SERVICE_ID,
+  import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+  formRef.current,
+  import.meta.env.VITE_EMAILJS_PUBLIC_KEY,
     {
       from_name: formData.name,
       from_email: formData.email,
       message: formData.message
     },
-    '__I7jflczv4uSYoCv'      // replace with your actual Public Key
+      // replace with your actual Public Key
   )
   .then(() => {
     toast({
