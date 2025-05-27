@@ -18,7 +18,7 @@ const Hero = () => {
               <span className="gradient-text">Aishwarya Asabe</span>
             </h1>
             <h2 className="text-2xl md:text-3xl text-foreground/80 mb-6 font-medium">
-              Full Stack Developer & AI Enthusiast
+              Full Stack Developer & Tech Enthusiast
             </h2>
             <p className="text-xl text-foreground/60 mb-8 max-w-2xl mx-auto">
               Passionate about creating innovative web solutions using modern technologies. 
